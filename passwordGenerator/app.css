@@ -1,0 +1,78 @@
+html {
+    display: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    text-align: left;
+}
+
+.app-container{ 
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f2937;
+    width:480px ;
+    height: 600px;
+    /* color: #10b981; */
+    color: white;
+}
+
+h1{
+    padding-top: 100px;
+    text-align: left;
+}
+.title {
+    padding-left: 30px;
+}
+#p-pass {    
+    text-align: left;
+    font-weight: bold;    
+}
+
+h1 span {
+    color: #10b981;
+}
+
+#number-of-chars{
+    width: 130px;
+    height: 1rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn {
+    margin-top: 20px;
+    background-color: #10b981;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: #0a5f43;
+    color: #17faae;
+}
+
+
+.results {
+    margin-top: 30px;
+    border-top:2px solid #10b981;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+#first-pass , #second-pass {
+    margin-top: 50px;
+    background-color:#1c1c1c;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#first-pass:hover , #second-pass:hover {
+    border-color: #10b981;
+}

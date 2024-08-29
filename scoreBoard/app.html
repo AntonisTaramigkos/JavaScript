@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="img-cont">
+        <div class="mainApp">
+            <div class="score-board">
+                <div class="home">
+                    <h1>Home</h1>
+                    <p id="home-score">0</p>
+                    <button class="btn" onclick="addScore('home',1)">+1</button>
+                    <button class="btn" onclick="addScore('home',2)">+2</button>
+                    <button class="btn" onclick="addScore('home',3)">+3</button>
+                    
+        
+                </div>
+        
+                <div class="visitor">
+                    <h1>Visitors</h1>
+                    <p id="visitors-score">0</p>
+                    <button class="btn" onclick="addScore('visitors',1)">+1</button>
+                    <button class="btn" onclick="addScore('visitors',2)">+2</button>
+                    <button class="btn" onclick="addScore('visitors',3)">+3</button>
+    
+                </div>
+            </div>
+            <div class="new-game">
+                <button id="new-game-btn" onclick="resetGame()"><h3>New Game</h1></button>
+            </div>
+            
+        </div>
+    </div>
+<script src="./app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="app-container">
+        
+        <div class="title">
+            <h1><span>Generate </span> <br> random passwords. 
+            </h1>
+            <p id="p-pass">Keep your accounts safe!</p>
+            <p id="p-pass">How stong do you want to be the password?</p>
+        <input type="text" id="number-of-chars" placeholder="number of characters"></input><br>
+        <button id="btn" onclick="generatePass()">Generate Passwords</button>
+                
+        </div> 
+
+        <div class="results">                  
+            <button id="first-pass" onclick="copyMe('first-pass')">First-pass</button>
+            <button id="second-pass" onclick="copyMe('second-pass')">Second-pass</button>
+        </div>
+    </div>
+<script src="./app.js"></script>    
+</body>
+</html>
